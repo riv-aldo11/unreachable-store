@@ -1,0 +1,70 @@
+@charset "UTF-8"
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color0:rgb(54, 164, 184);
+    --color1: ;
+    --color2:rgb(85, 168, 220);
+    --color3: ;
+    --color4:rgb(26, 78, 142) ;
+    --color5: ;
+
+    --fonte-padrão: 'Arial', verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Montserrat', open sans;
+}
+
+* {
+    margin: auto;
+    padding: 4px;
+    text-align: justify;
+}
+body {
+    background-image: linear-gradient(to bottom, var(--color4), var(--color2), var(--color0));
+    font-family: var(--fonte-padrão);
+}
+header {
+    background-image: linear-gradient(to right, var(--color1), var(--color3), white);
+    padding: 1px;
+}
+
+header> h1 {
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    font-size: 40px;
+    padding: auto;
+    padding-bottom:15px;
+    padding-top: 20px;
+}
+
+nav {
+    background-image: linear-gradient(to right, var(--color1), var(--color3), white);
+    padding-left: 7px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: var(--color2);
+
+}
+
+nav > a:hover {
+    color: white;
+    background-color: rgb(243, 137, 50);
+}
+
+main {
+    color: var(--color4);
+    background-color: var(--color2);
+    margin: 10px 100px;
+    padding: 60px;
+}
+
+main h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+main img {
+    width: 50%;
+}
