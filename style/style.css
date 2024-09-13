@@ -58,7 +58,6 @@ main {
     background-color: var(--color2);
     margin: 10px 100px;
     padding: 60px;
-    position: relative;
 }
 
 main h2 {
