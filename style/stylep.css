@@ -63,7 +63,7 @@ nav > a:active {
 main {
     color: var(--color4);
     background-color: var(--color2);
-    margin: 20px 60px;
+    margin: 20px 40px;
     padding: 40PX;
     border-radius: 10px;
     min-width: 200px;
