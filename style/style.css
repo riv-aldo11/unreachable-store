@@ -4,7 +4,7 @@
 
 :root {
     --color0:rgb(54, 164, 184);
-    --color1: ;
+    --color1:rgb(243, 137, 50) ;
     --color2:rgb(85, 168, 220);
     --color3: ;
     --color4:rgb(26, 78, 142) ;
@@ -19,7 +19,6 @@
     box-sizing: border-box;
 }
 body {
-    flex: 1 1 100vw;
     background-image: linear-gradient(to bottom, var(--color4), var(--color2), var(--color0));
     font-family: var(--fonte-padrão);
 }
@@ -39,9 +38,9 @@ header> h1 {
 }
 
 nav {
-    flex: 1 1 100vw;
     background-image: linear-gradient(to right, var(--color1), var(--color3), white);
-    padding-left: 7px;
+    padding-left: 60px;
+    margin-bottom: 20px;
 }
 
 nav > a {
@@ -52,15 +51,21 @@ nav > a {
 
 nav > a:hover {
     color: white;
-    background-color: rgb(243, 137, 50);
+    background-color: var(--color1);
+}
+
+nav > a:active {
+    color: var(--color1);
+    background-color: var(--color2) ;
 }
 
 main {
-    flex: 1 1 100vw;
     color: var(--color4);
     background-color: var(--color2);
-    margin: 10px 100px;
-    padding: 60px;
+    margin: 0px 60px;
+    padding: 40PX;
+    border-radius: 10px;
+
 }
 
 main h2 {
@@ -70,5 +75,5 @@ main h2 {
 
 main img {
     padding-top: 40px;
-    width: 50%;
+    width: 100%;
 }
