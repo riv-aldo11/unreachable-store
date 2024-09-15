@@ -16,14 +16,15 @@
 
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 body {
+    flex: 1 1 100vw;
     background-image: linear-gradient(to bottom, var(--color4), var(--color2), var(--color0));
     font-family: var(--fonte-padrão);
 }
 header {
+    flex: 1 1 100vw;
     background-image: linear-gradient(to right, var(--color1), var(--color3), white);
     padding: 1px;
 }
@@ -38,6 +39,7 @@ header> h1 {
 }
 
 nav {
+    flex: 1 1 100vw;
     background-image: linear-gradient(to right, var(--color1), var(--color3), white);
     padding-left: 7px;
 }
@@ -54,6 +56,7 @@ nav > a:hover {
 }
 
 main {
+    flex: 1 1 100vw;
     color: var(--color4);
     background-color: var(--color2);
     margin: 10px 100px;
@@ -66,5 +69,6 @@ main h2 {
 }
 
 main img {
+    padding-top: 40px;
     width: 50%;
 }
