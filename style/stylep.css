@@ -81,6 +81,8 @@ main > img {
 
 footer {
     text-align: right;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 footer a {
