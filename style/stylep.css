@@ -63,7 +63,7 @@ nav > a:active {
 main {
     color: var(--color4);
     background-color: var(--color2);
-    margin: 0px 60px;
+    margin: 20px 60px;
     padding: 40PX;
     border-radius: 10px;
     min-width: 200px;
@@ -77,4 +77,24 @@ main > h2 {
 main > img {
     padding-top: 40px;
     width: 100%;
+}
+
+footer {
+    text-align: right;
+}
+
+footer a {
+    background-color: var(--color0);
+    color: var(--color4);
+    text-decoration: none;
+}
+   
+footer a:hover {
+    color: white;
+    background-color: var(--color1);
+}
+
+footer a:active {
+    color: var(--color1);
+    background-color: var(--color2)
 }
